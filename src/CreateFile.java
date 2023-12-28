@@ -25,7 +25,8 @@ public class CreateFile {
             FileWriter myWriter = new FileWriter(fileData);
             myWriter.write("Creating a file and writing some text into it - Line 1 ! Janos Pal Kovacs\n");
             myWriter.write("Creating a file and writing some text into it - Line 2 ! Janos Pal Kovacs\n");
-            myWriter.write("Creating a file and writing some text into it - Line 3 ! Janos Pal Kovacs");
+            myWriter.write("Creating a file and writing some text into it - Line 3 ! Janos Pal Kovacs\n");
+            myWriter.write("Creating a file and writing some text into it - Line 4 ! Janos Pal Kovacs");
             myWriter.close();
             System.out.println("Successfully wrote to the file.");
         } catch (IOException e) {
